@@ -1,14 +1,13 @@
 const express = require ("express");
 
-const app = express()
+const app = express();
+
+app.get("/", (req, res) => {
+    res.send("Hello World");
+});
 
 
 
 
-
-
-
-
-
-app.listen(3456);
-console.log("App is running on port 3456");
+app.listen(3344);
+console.log("App is running on port 3344");

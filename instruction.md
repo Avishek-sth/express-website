@@ -21,3 +21,4 @@
 
 6. In package.json,
     a. add start script in script object, as nodemon.
+    b. run by calling command 'npm run start'
